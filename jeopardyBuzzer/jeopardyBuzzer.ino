@@ -5,18 +5,13 @@
  * Jeopardy Buzzer
  * Rex McAllister, December 2020
  * 
- * Designed to run on Esp8266 NodeMCU
+ * Designed to run on ESP8266 NodeMCU
  */
 
 /* ---------------------------------------------------------------------------------------------- */
 
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
-
-#ifndef APSSID
-#define APSSID "ESP8266_Access-RM"
-#define APPSK "HeIsOnlyMostlyDead."
-#endif
 
 /* ---------------------------------------------------------------------------------------------- */
 
