@@ -42,7 +42,7 @@ int numLeds = 6;
 
 /* Objects */
 Adafruit_NeoPixel pixels(numLeds, ledPin, NEO_GRB + NEO_KHZ800);
-uint32_t ledColors[4] = { pixels.Color(255,0,0) , pixels.Color(0,255,0) , pixels.Color(0,0,255) , pixels.Color(255,255,0) };
+uint32_t ledColors[4] = { pixels.Color(255,0,0) , pixels.Color(0,255,0) , pixels.Color(0,0,255) , pixels.Color(255,255,0) }; //this is in the wrong section but the order of variable declaration is weird
 
 
 /* ---------------------------------------------------------------------------------------------- */
